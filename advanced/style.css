@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #CDC28C;
+}
+
+.mynav {
+    background-color: #60312A;
+    color: #CDC28C;
+}
+
+.product-price {
+    color: #60312A;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    background-color: #60312A;
+    color: #CDC28C;
+}
+
+.navbar-dark {
+    color: #CDC28C;
+}
+
+.product-image {
+    border: 3px solid #60312A;
+    object-fit: cover;
+    min-height: 40vh;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.fab {
+    color: #CDC28C;
+    border: 1px solid #CDC28C;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.subscribe {
+    border: 1px #CDC28C solid;
+    color: #CDC28C;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.social {
+    margin-left: 20%;
+}
+
+.newstext {
+    padding-top: 10px;
+}
+
+.subscribebar {
+    margin-left: 10px;
+}
+
+.copy {
+    margin-left: 30%;
+}
+
+@media only screen and (max-width: 995px) {
+    .mynav {
+        height: 20vh;
+    }
+}
